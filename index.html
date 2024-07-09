@@ -24,8 +24,8 @@
           <div class="card-header bg-white">
             <h2 class="card-title mb-1">To Do</h2>
           </div>
-          <div class="card-body bg-light">
-            <div id="todo-cards"></div>
+          <div class="card-body bg-light connectedSortable">
+            <div id="to-do-cards"></div>
           </div>
         </div>
       </div>
@@ -34,7 +34,7 @@
           <div class="card-header bg-white">
             <h2 class="card-title mb-1">In Progress</h2>
           </div>
-          <div class="card-body bg-light">
+          <div class="card-body bg-light connectedSortable">
             <div id="in-progress-cards"></div>
           </div>
         </div>
@@ -44,7 +44,7 @@
           <div class="card-header bg-white">
             <h2 class="card-title mb-1">Done</h2>
           </div>
-          <div class="card-body bg-light">
+          <div class="card-body bg-light connectedSortable">
             <div id="done-cards"></div>
           </div>
         </div>
@@ -71,7 +71,7 @@
               <input type="text" class="form-control" id="taskDuedate" placeholder="mm/dd/yyyy" required>
             </div>
             <div class="mb-3">
-              <label for="taskDescription" class="form-label">Test Description</label>
+              <label for="taskDescription" class="form-label">Task Description</label>
               <textarea class="form-control" id="taskDescription" rows="3" required></textarea>
             </div>
             <button type="submit" class="btn btn-primary">Save Task</button>
